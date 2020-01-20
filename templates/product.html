@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main.css') }}">
+	
+	<title>{% block title %}{% endblock %}</title>
+</head>
+
+<body>
+
+	<header id="header">
+		<div class="innertube">
+			<h1><a href="/index">Testday</a></h1>
+		</div>
+	</header>
+
+	<div id="wrapper">
+		<main>
+			<div id="content">
+				<div class="innertube">					
+                    productId = {{productId}}
+				</div>
+			</div>
+		</main>
+
+		<nav id="nav">
+			<div class="innertube">
+				<h3>Sekce</h3>
+				<ul>
+					{% for sec in sections %}
+					<li><a href="/categories/{{sec}}">{{ sections[sec] }}</a> </li>
+					{% endfor %}
+				</ul>
+			</div>
+		</nav>
+
+	</div>
+</body>
+
+</html>

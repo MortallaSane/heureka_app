@@ -1,0 +1,135 @@
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Sans-Serif;
+			line-height: 1.5em;
+		}
+
+		#header {
+			background: #ccc;
+			height: 100px;
+		}
+
+		#header a {
+			text-decoration: none;
+			color: #fff;
+		}
+
+		#header a:hover {
+			text-decoration: underline;
+		}
+
+		#header h1 {
+			margin: 0;
+			padding-top: 15px;
+		}
+
+		main {
+			padding-bottom: 10010px;
+			margin-bottom: -10000px;
+			float: left;
+			width: 100%;
+		}
+
+		#nav {
+			padding-bottom: 10010px;
+			margin-bottom: -10000px;
+			float: left;
+			width: 230px;
+			height: 450px;
+			margin-left: -100%;
+			background: #eee;
+		}
+
+		#footer {
+			clear: left;
+			width: 100%;
+			background: #ccc;
+			text-align: center;
+			padding: 4px 0;
+		}
+
+		#wrapper {
+			overflow: hidden;
+		}
+
+		#content {
+			margin-left: 230px;
+			/* Same as 'nav' width */
+		}
+
+		.innertube {
+			margin: 15px;
+			/* Padding for content */
+			margin-top: 0;
+		}
+
+		p {
+			color: #555;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			padding-left: 5%;
+			text-align: left;
+		}
+
+		nav li:hover {
+			background: lightgray;
+		}
+
+		nav ul a {
+			color: darkgreen;
+			text-decoration: none;
+		}
+
+		.grid-container {
+			display: grid;
+			grid-template-columns: auto auto auto;
+  			grid-gap: 10px;
+  			background-color: #fff;
+  			color: rgba(20, 25, 25, 0.2);
+		}
+
+		.grid-container > div:hover {
+			background-color: rgba(20, 25, 25, 0.342);			
+		}
+
+		.grid-container a {
+			display: block;
+			padding-top: 20px;
+			width: 100%;
+			height: 100%;
+			font-size: 15px;
+			color: #ccc;
+			text-decoration: none;
+		}
+		.grid-container a :hover{
+			color: rgb(255, 255, 255)
+		}
+		
+
+		.item {
+			background-color: #444;
+			color: #fff;
+			border-radius: 5px;
+			padding: 20px;
+			font-size: 150%;
+		  }
+
+		.products-content a{
+			width: 90%;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			height: 50px;	
+			
+			text-decoration: none;
+			color:  rgba(255, 255, 255, 0.89);
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+
+		
